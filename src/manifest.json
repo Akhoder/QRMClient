@@ -1,0 +1,36 @@
+{
+    "short_name": "QRM",
+    "name": "QRM Solution",
+    "start_url": "/",
+    "theme_color": "#f48c5b",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "orientation": "portrait",
+    "icons": [
+        {
+            "src": "/assets/images/icons/QRM-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/images/icons/QRM-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/images/icons/QRM-150x150.png",
+            "sizes": "150x150",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/images/icons/QRM-16x16.png",
+            "sizes": "16x16",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/images/icons/QRM-32x32.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        }
+    ]
+}
