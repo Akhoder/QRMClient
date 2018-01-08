@@ -23,6 +23,9 @@ import { AppComponent } from './components/shared/app.component';
 import { UpdateCarComponent } from './components/updatecar/update.component';
 
 import { PageNotFoundComponent } from './components/pageNotFound/PageNotFound.component';
+import { PesonComponent } from './components/peson/peson.component';
+import { PersonService } from './services/person.service';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
  
 export function getBusyConfig() {
@@ -42,7 +45,8 @@ export function getBusyConfig() {
     LoginComponent,
     UpdateCarComponent,
     NotificationComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    PesonComponent
   ],
   imports: [
  
@@ -52,10 +56,11 @@ export function getBusyConfig() {
     ReactiveFormsModule, 
     HttpModule, 
     routing,
-    DataTablesModule 
+    DataTablesModule ,
+    BrowserAnimationsModule
   ],
  
-  providers: [CarService, CanActivateService, NotifService, LoginService ],
+  providers: [CarService, CanActivateService, NotifService, LoginService,PersonService ],
   bootstrap: [AppComponent, NotificationComponent]
 })
 export class AppModule { }
